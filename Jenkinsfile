@@ -32,7 +32,7 @@ node('master') {
        }
 
        stage('Cleanup'){    
-         sh 'npm prune'
+        
        }
 
 
